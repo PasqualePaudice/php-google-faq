@@ -105,3 +105,59 @@ main .container p {
   line-height: 24px;
 }
 
+footer {
+  height: 45px;
+  background-color: whitesmoke;
+  border-top: 1px solid #eee;
+}
+
+footer .footerContainer {
+  width: 978px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+footer .footerContainer .info {
+  float: left;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+footer .footerContainer .info div {
+  position: relative;
+  height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  padding: 0 10px;
+  color: rgba(61, 61, 61, 0.8);
+}
+
+footer .footerContainer .lingua {
+  float: right;
+  height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+footer .footerContainer .lingua select {
+  width: 174px;
+  height: 19px;
+  border: 1px solid #2C9EF6;
+}
+
+.punto {
+  height: 1px;
+  width: 1px;
+  background-color: rgba(61, 61, 61, 0.8);
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+

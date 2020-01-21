@@ -1,0 +1,50 @@
+footer{
+    height:45px;
+    background-color: rgb(245, 245, 245);
+    border-top: 1px solid #eee;
+
+    .footerContainer{
+        width: $larghezzaContainer;
+        margin: 0 auto;
+        height: 100%;
+
+        .info{
+            float: left;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            div{
+                position: relative;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                padding:0 10px;
+                color: rgba(61,61,61,.8);
+
+
+            }
+        }
+        .lingua{
+            float: right;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            select{
+                width: 174px;
+                height: 19px;
+                border:1px solid #2C9EF6;
+            }
+        }
+
+    }
+}
+
+.punto{
+    height: 1px;
+    width: 1px;
+    background-color: rgba(61,61,61,.8);
+    position: absolute;
+    right: 0;
+    top: 50%;
+
+}

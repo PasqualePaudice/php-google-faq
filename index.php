@@ -103,5 +103,47 @@ $array = [
 
         </main>
 
+        <footer>
+
+            <div class="footerContainer">
+                <div class="info">
+                    <div class="">
+                        <small>Google</small>
+
+                        <span class="punto">
+
+                        </span>
+                    </div>
+                    <div class="">
+                        <small>Tutto su Google</small>
+                        <span class="punto">
+
+                        </span>
+                    </div>
+                    <div class="">
+                        <small>Privacy</small>
+                        <span class="punto">
+
+                        </span>
+                    </div>
+                    <div class="">
+                        <small>Termini</small>
+
+                    </div>
+
+                </div>
+
+                <div class="lingua">
+                    <select class="" name="">
+                        <option value="">Italiano</option>
+                        <option value="">English</option>
+
+                    </select>
+                </div>
+
+            </div>
+
+        </footer>
+
     </body>
 </html>
