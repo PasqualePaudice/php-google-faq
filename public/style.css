@@ -5,22 +5,103 @@
   font-family: sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   height: 98px;
   border-bottom: 1px solid rgba(151, 151, 151, 0.5);
 }
 
 header .headerTop {
+  padding: 0 24px;
   height: 60%;
-  background: yellow;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+header .headerTop h1 {
+  position: relative;
+  top: 2px;
+}
+
+header .headerTop h2 {
+  font-family: "product sans", "open sans", arial, sans-serif;
+  font-weight: 400;
+  margin: 0 7px;
+  font-size: 22px;
+}
+
+header .headerTop h2 a {
+  color: #5f6368;
 }
 
 header .headerBottom {
   height: 40%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0 24px;
 }
 
-.options div {
+.options {
+  height: 100%;
+  float: left;
+}
+
+.options .lh {
   float: left;
   height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  margin-right: 42px;
+}
+
+.options #dfrequenti {
+  color: blue;
+  border-bottom: 3px solid blue;
+}
+
+.accountG {
+  float: right;
+  height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.accountG:hover {
+  cursor: pointer;
+}
+
+main {
+  padding-top: 50px;
+}
+
+main .container {
+  width: 978px;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+main .container h2 {
+  font-size: 24px;
+  padding: 64px 0 0 0;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+main .container p {
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 10px 0;
+  line-height: 24px;
 }
 

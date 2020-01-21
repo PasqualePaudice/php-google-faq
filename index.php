@@ -42,51 +42,64 @@ $array = [
     <head>
         <meta charset="utf-8">
         <title>FAQs</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="public/style.css">
     </head>
     <body>
 
         <header>
             <div class="headerTop">
+                <h1 class="azCOyf"><a href="https://www.google.com/" class="FwCYR"><img alt="Google" class="MntwIc" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" srcset="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png 2x" data-iml="615.2850000653416" data-atf="true"></a></h1>
+
+                <h2 class="gyDJxf"><a class="jg30ib" href="">Privacy e termini</a></h2>
 
             </div>
             <div class="headerBottom">
                 <div class="options">
-                    <div class="">
+                    <div class="lh">
                         Introduzione
                     </div>
-                    <div class="">
+                    <div class="lh">
                         Norme sulla privacy
                     </div>
-                    <div class="">
+                    <div class="lh">
                         Termini di servizio
                     </div>
-                    <div class="">
+                    <div class="lh">
                         Tecnologie
                     </div>
-                    <div class="">
+                    <div    id="dfrequenti" class="lh">
                         Domande frequenti
                     </div>
+
+                </div>
+
+                <div class="accountG">
+                    <p>Account Google</p>
                 </div>
             </div>
 
         </header>
         <main>
+            <div class="container">
 
-            <?php  foreach ($array as $key => $value) {
-                    foreach ($value as $key2 => $val) {
-                        if ($key2 == 'domanda') {?>
-                            <h2><?php echo $val ?></h2>
-                        <?php
+                <?php  foreach ($array as $key => $value) {
+                        foreach ($value as $key2 => $val) {
+                            if ($key2 == 'domanda') {?>
+                                <h2><?php echo $val ?></h2>
+                            <?php
+                            }
+                            if ($key2 == 'risposta') {?>
+                                <p><?php echo $val ?></p>
+                            <?php
+                            }
                         }
-                        if ($key2 == 'risposta') {?>
-                            <p><?php echo $val ?></p>
-                        <?php
-                        }
-                    }
-            }
+                }
 
-                        ?>
+                            ?>
+
+            </div>
+
 
         </main>
 

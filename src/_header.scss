@@ -4,23 +4,75 @@ header{
     border-bottom: 1px solid rgba(151, 151, 151, 0.5);
 
 
+
     .headerTop{
+        padding: 0 24px;
         height:60%;
-        background: yellow;
+        display: flex;
+        align-items: center;
+
+        h1{
+            position: relative;
+            top:2px;
+
+        }
+
+        h2{
+            font-family: "product sans","open sans",arial,sans-serif;
+            font-weight: 400;
+            margin: 0 7px;
+            font-size: 22px;
+            a{
+                color: #5f6368;
+            }
+
+        }
+
+
 
     }
 
     .headerBottom{
         height:40%;
+        font-family: 'Open Sans',sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        padding:0 24px;
     }
 
 }
 
 
 .options{
-    div{
+    height: 100%;
+    float: left;
+
+    .lh{
+
+
         float: left;
         height: 100%;
-        
+        display: flex;
+        align-items: center;
+        margin-right: 42px;
+
     }
+
+    #dfrequenti{
+        color: blue;
+        border-bottom: 3px solid blue;
+    }
+}
+
+.accountG{
+    float: right;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+
+    &:hover{
+            cursor: pointer;
+        }
+
 }
