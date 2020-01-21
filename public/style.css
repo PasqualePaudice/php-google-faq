@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  height: 98px;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.5);
+}
+
+header .headerTop {
+  height: 60%;
+  background: yellow;
+}
+
+header .headerBottom {
+  height: 40%;
+}
+
+.options div {
+  float: left;
+  height: 100%;
+}
+
